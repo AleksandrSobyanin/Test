@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="243947ba-1b37-4079-8eac-9d3202d49eec">
+  <producedTypes>
+    <selectionType typeId="7fd2eb58-1b23-4369-8618-ea38f882010c" valueTypeId="9851c909-0602-4c0b-b583-a9b1ffffa687"/>
+    <listType typeId="f4dbb06e-47e0-4117-920a-6b95939f1aef" valueTypeId="b68ac445-db62-4538-b181-8a691530acf0"/>
+    <managerType typeId="ed696fac-f4d1-4583-a293-c3bc41ea9617" valueTypeId="c7fd4e7e-5ea8-4439-9551-a8ff25c4c352"/>
+    <recordSetType typeId="87b4d77f-5fa1-4acb-a02b-6c0026f169ed" valueTypeId="8754e061-2d84-46a3-8db4-eaf8fb47022c"/>
+    <recordKeyType typeId="7165af0c-4a7b-4f59-a63f-f55e664043d4" valueTypeId="47346a66-966e-4ae7-8e8e-f1fb5569b491"/>
+    <recordType typeId="28a05b89-08b2-4aaa-b78d-df56cc588398" valueTypeId="8a0d6778-78a2-4fb8-b562-db31913be480"/>
+    <recordManagerType typeId="0725c1d5-3b48-4023-9ac8-c0f4c029e6fe" valueTypeId="c12bf92f-2b08-4f5e-8634-cc37ebbd05ce"/>
+  </producedTypes>
+  <name>Тарифы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="65be179d-903d-4d32-a100-72c858e15112">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="dfc159b5-048e-45c1-8f1d-43c2e71320dc">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Услуга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="68ed3f0f-0038-4746-b3ff-ffde9cfe02bf">
+    <name>Диапазон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Характеристика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

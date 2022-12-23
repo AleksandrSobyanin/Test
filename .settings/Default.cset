@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "settings": {
+    "common-module-type": {
+      "enabled": false
+    },
+    "md-list-object-presentation": {
+      "enabled": false
+    }
+  }
+}

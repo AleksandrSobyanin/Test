@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5464e64a-f581-457d-8535-5476699f73ee">
+  <name>Сортировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сортировка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.Тарифы</content>
+  <content>Enum.ТипГрузовогоМеста</content>
+  <content>Enum.Услуга</content>
+  <content>Catalog.ГрузовоеМесто</content>
+  <content>Catalog.Характеристика</content>
+  <content>InformationRegister.РасчетУслуг</content>
+  <content>DataProcessor.ЗагрузкаДанных</content>
+  <content>Report.ОтчетПоУслугам</content>
+</mdclass:Subsystem>

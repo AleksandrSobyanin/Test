@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adae0b7a-beb5-4b17-ac3c-99fda28e2489">
+  <producedTypes>
+    <refType typeId="d880f148-5a62-42d1-9c74-439ef9c36328" valueTypeId="0be9873a-7fc8-4ef6-9488-5fcfa40b04cc"/>
+    <listType typeId="62f73a1a-804c-45c0-a70b-6b947a6e5b0b" valueTypeId="7333fafc-bd3a-41ef-9897-676475c50839"/>
+    <managerType typeId="b2b0a899-120e-41d0-99e4-20981d722bab" valueTypeId="24cf71a6-c8ff-4ffb-bf8e-b824367a5f9b"/>
+  </producedTypes>
+  <name>ТипГрузовогоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип грузового места</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e73b7a41-42b7-4bff-af8c-bf8c5d4d5a88">
+    <name>Хаб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хаб</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c21c45f-2034-48ea-9aab-fe9cec82789d">
+    <name>Шина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шина</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="000f88cd-4127-43d3-a2ce-2d6eb6633432">
+    <name>МГТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МГТ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9188433d-ba33-4a72-af6f-75d60e862a8d">
+    <name>КГТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>КГТ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

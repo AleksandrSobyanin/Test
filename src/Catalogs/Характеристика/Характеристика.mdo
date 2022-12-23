@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="695dd7af-a3a3-47f7-808d-c931e55a2f0d">
+  <producedTypes>
+    <objectType typeId="fbf507d4-7e49-4d6f-93e6-f84683aa89f6" valueTypeId="cf6ca792-275a-49dc-ae05-0fdad808d6db"/>
+    <refType typeId="a84820c8-28ac-4e1d-8278-8d18035f16a8" valueTypeId="27196015-f2eb-4ad4-8059-5e7b16943b22"/>
+    <selectionType typeId="9b9cb44f-2769-47ab-b95c-212025e4fea4" valueTypeId="caabc0d4-45e5-480a-b6dc-0b2ccf701bff"/>
+    <listType typeId="893b6690-070e-4c21-b23b-1fe1b1390123" valueTypeId="86c300ae-30c8-42d3-8b23-ed957d3e429e"/>
+    <managerType typeId="98c51ec9-a6f0-4179-84c1-d36a9b65a9a1" valueTypeId="e169036d-50a0-4ba1-98da-626a20c61905"/>
+  </producedTypes>
+  <name>Характеристика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Характеристика.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Характеристика.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="022f4f88-15b2-4ef6-ae20-a833aa1e183d">
+      <name>До500ГМ</name>
+      <description>До 500 ГМ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="769058c9-d2e2-4504-95fb-8c081cb2728a">
+      <name>От1000До2000ГМ</name>
+      <description>От 1000 до 2000 ГМ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="b26a8530-9ef4-436b-b669-e0ac92bb3aea">
+      <name>От2000До5000ГМ</name>
+      <description>От 2000 до 5000 ГМ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="b0906b1a-fa2b-4151-8821-ba407d9f9647">
+      <name>От500до1000ГМ</name>
+      <description>От 500 до 1000 ГМ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="400af0ad-b7cc-4ee7-a2c5-616a207fed07">
+      <name>Свыше5000ГМ</name>
+      <description>Свыше 5000 ГМ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="837f6c85-a6d7-4a8d-a1f9-112435a7fed9">
+      <name>Сутки</name>
+      <description>Сутки</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b32f3119-6dbb-4af1-b6e7-528f251c1843">
+    <name>НижняяГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нижняя граница</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d11bbc2-6d78-4a68-b656-cb4b0cc99507">
+    <name>ВерхняяГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Верхняя граница</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

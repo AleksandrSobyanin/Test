@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="757b6052-d9a8-4177-8d01-012658d44e03">
+  <producedTypes>
+    <selectionType typeId="3e125746-d212-4028-a5dc-6b5d4c121330" valueTypeId="b8e4812b-32ae-4f6c-8b34-c51da98a3084"/>
+    <listType typeId="1c1acb2b-2838-442d-adba-b4594be4c13c" valueTypeId="4f7a2ab7-4430-4478-a69d-b70567ec3930"/>
+    <managerType typeId="a80164f8-7934-4588-b12d-8d71f08f03f3" valueTypeId="9e3faa28-b66a-4690-8510-8442d2db7cf9"/>
+    <recordSetType typeId="523b6559-35b8-4413-b783-112db0d481c9" valueTypeId="0cdf8f06-e32f-4cc1-97cc-b1374d57e59f"/>
+    <recordKeyType typeId="3e5723f6-d962-4ca4-8a8d-832bfd468c32" valueTypeId="c3138d85-129e-4db8-b64f-c86df76f2583"/>
+    <recordType typeId="3c2e5c23-beec-42af-a383-f50f1b408925" valueTypeId="282f8226-395e-4bfd-8091-a44abc561e1f"/>
+    <recordManagerType typeId="0ae4c695-37c2-4b7c-897c-b62dfbfe4cd0" valueTypeId="386de6c5-13d7-431b-b9d7-45850e0f6166"/>
+  </producedTypes>
+  <name>РасчетУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8da5d440-ce45-4d7e-a87c-490959cac00d">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9876df89-f485-4dc6-845e-99a711606cdb">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Услуга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7cd88221-2481-4bde-af53-ad8304d3e47f">
+    <name>ГМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГМ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГрузовоеМесто</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
